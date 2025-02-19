@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import pandas as pd
 import datetime
 import re
@@ -79,10 +73,3 @@ if __name__ == "__main__":
     keyword = input('Введите ключевое слово для поиска: ')
     
     df = search_keyword(file_path, keyword)
-
-
-# In[ ]:
-
-
-
-
