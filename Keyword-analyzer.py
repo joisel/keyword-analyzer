@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import re
 from nltk.corpus import stopwords
@@ -95,16 +89,3 @@ except Exception as e:
         for i, line in enumerate(f):
             if i < 5:
                 print(line.strip())
-
-
-# In[13]:
-
-
-df
-
-
-# In[ ]:
-
-
-
-
